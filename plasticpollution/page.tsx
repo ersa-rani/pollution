@@ -1,0 +1,22 @@
+import Link from "next/link"
+export default function Home(){
+    return(
+        <div>
+            <Link href="/">
+        <h3 className="h3"><i><button>back</button></i></h3>
+        </Link>
+            <h1 className="mainHeading"><b>plastic pollution,</b> </h1>accumulation in the environment of synthetic plastic products to the point that they create problems for wildlife and their habitats as well as for human populations. In 1907 the invention of Bakelite brought about a revolution in materials by introducing truly synthetic plastic resins into world commerce. By the end of the 20th century, plastics had been found to be persistent polluters of many environmental niches, from Mount Everest to the bottom of the sea. Whether being mistaken for food by animals, flooding low-lying areas by clogging drainage systems, or simply causing significant aesthetic blight, plastics have attracted increasing attention as a large-scale pollutant.
+            <br/>
+            <h1 className="mainHeading"><b>The problem of plastics</b></h1>
+plastic pollution
+plastic pollutionPlastic bottles and other garbage in a lake.
+Plastic is a polymeric material—that is, a material whose molecules are very large, often resembling long chains made up of a seemingly endless series of interconnected links. Natural polymers such as rubber and silk exist in abundance, but nature’s “plastics” have not been implicated in environmental pollution, because they do not persist in the environment. Today, however, the average consumer comes into daily contact with all kinds of plastic materials that have been developed specifically to defeat natural decay processes—materials derived mainly from petroleum that can be molded, cast, spun, or applied as a coating. Since synthetic plastics are largely nonbiodegradable, they tend to persist in natural environments. Moreover, many lightweight single-use plastic products and packaging materials, which account for approximately 50 percent of all plastics produced, are not deposited in containers for subsequent removal to landfills, recycling centres, or incinerators. Instead, they are improperly disposed of at or near the location where they end their usefulness to the consumer. Dropped on the ground, thrown out of a car window, heaped onto an already full trash bin, or inadvertently carried off by a gust of wind, they immediately begin to pollute the environment. Indeed, landscapes littered by plastic packaging have become common in many parts of the world. (Illegal dumping of plastic and overflowing of containment structures also play a role.) Studies from around the world have not shown any particular country or demographic group to be most responsible, though population centres generate the most litter. The causes and effects of plastic pollution are truly worldwide.
+
+recycling bins
+recycling binsRecycling bins set side by side with trash bins.
+According to the trade association PlasticsEurope, worldwide plastic production grew from some 1.5 million metric tons (about 1.7 million short tons) per year in 1950 to an estimated 275 million metric tons (about 303 million short tons) by 2010 and 359 million metric tons (nearly 396 million short tons) by 2018; between 4.8 million and 12.7 million metric tons (5.3 million and 14 million short tons) are discarded into the oceans annually by countries with ocean coastlines.
+
+Compared with materials in common use in the first half of the 20th century, such as glass, paper, iron, and aluminum, plastics have a low recovery rate. That is, they are relatively inefficient to reuse as recycled scrap in the manufacturing process, because of significant processing difficulties such as a low melting point, which prevents contaminants from being driven off during heating and reprocessing. Most recycled plastics are subsidized below the cost of raw materials by various deposit schemes, or their recycling is simply mandated by government regulations. Recycling rates vary dramatically from country to country, and only northern European countries obtain rates greater than 50 percent. In any case, recycling does not really address plastic pollution, since recycled plastic is “properly” disposed of, whereas plastic pollution comes from improper disposal.
+        </div>
+    )
+}

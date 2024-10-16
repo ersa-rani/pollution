@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  background-color: white;
+  height: 700px;
+  min-width: 1320px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.childContainer {
+  background-color: skyblue;
+  height: 300px;
+  width: 200px;
+  border-radius: 15px;
+}
+
+.waterPollution {
+  background-color: skyblue;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.waterH {
+  font-size: 25px;
+  color: rgb(18, 16, 26);
+  padding-left: 10px;
+}
+.waterP {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+}
+
+.waterR {
+  background-color: rgb(5, 4, 7);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: aliceblue;
+  border-radius: 20px;
+  width: 90px;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 7px;
+  height: 25px;
+}
+
+.mainHeading {
+  font-size: 40px;
+}
+
+.h2 {
+  font-size: 25px;
+}
+
+.h3 {
+  background-color: black;
+  color: beige;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 70px;
+  font-size: 30px;
+}
+
+.landpollution {
+  background-color: skyblue;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hL {
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+.lp {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+}
+
+.airpollution {
+  width: 100%;
+  height: 100%;
+  background-color: skyblue;
+  border-radius: 15px;
+}
+
+.ap {
+  font-size: 20px;
+  color: rgb(10, 15, 19);
+  padding-left: 10px;
+}
+
+.ph {
+  font-size: 25px;
+  padding-left: 10px;
+}
+.th {
+  padding-left: 10px;
+  font-size: 23px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+
+  font-size: 20px;
+}
+.list {
+  margin-inline-start: 30px;
+}
+.about-heading {
+  font-size: 40px;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  color: skyblue;
+}
+.about-list {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  align-items: center;
+}
+.about {
+  font-size: 40px;
+  justify-content: center;
+  display: flex;
+  margin-left: 300px;
+  color: skyblue;
+}
+.info-heading {
+  font-size: 40px;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  color: black;
+  margin-bottom: 5px;
+}
+.info-para {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  align-items: center;
+  padding-right: 500px;
+  color: skyblue;
+  margin-left: 500px;
+  margin-top: 80px;
+}
+
+.childContainer:hover {
+  border: 3px solid black;
+  transition-duration: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.waterR:hover {
+  border: 2px solid white;
+}
+.header:hover {
+  text-decoration: underline skyblue;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-top: 20px;
+  /* margin-bottom: 10%; */
+}
+@media only screen and (max-width: 320px) {
+  .container {
+    display: inline-block;
+    /* background-color: aqua; */
+  }
+  .childContainer {
+    margin-bottom: 10px;
+    margin-left: 55px;
+  }
+  .about-heading {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-list {
+    margin-left: 20px;
+  }
+  .about {
+    margin-left: 10px;
+  }
+  .info-heading {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-para {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+}
